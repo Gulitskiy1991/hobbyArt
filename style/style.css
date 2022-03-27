@@ -1,0 +1,127 @@
+.inputAdress__town{
+    display: flex;
+    flex-direction: column;
+}
+.town__townName{
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 83px;
+    width: 520px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    padding: 16px 0 16px 24px;
+    margin-bottom: 24px;
+}
+/*.inputAdress__town input {*/
+/*    margin-bottom: 24px;*/
+/*}*/
+.town__mailTown {
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 83px;
+    width: 520px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    padding: 16px 0 16px 24px;
+}
+.town__townTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+#userAdress__userStreet {
+    width: 254px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 83px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    padding: 16px 0 16px 24px;
+}
+.inputAdress__userAdress input {
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 83px;
+    width: 130px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    padding: 16px 0 16px 24px;
+    margin-bottom: 24px;
+}
+.inputAdress__message {
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 83px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    padding: 16px 0 16px 24px;
+    width: 660px;
+}
+.userData__fullName input{
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 83px;
+    width: 220px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    padding: 16px 0 16px 24px;
+    margin-bottom: 24px;
+}
+.fullName__numberTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125%;
+    color: #424242;
+}
+.fullName__checkbox {
+    border-radius: 6.64286px;
+    width: 30px;
+    height: 30px;
+}
+.fullName__checkboxLabel {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+}
+.fullName__checkboxBlock {
+    display: flex;
+    justify-content: flex-start;
+}
+.wrapper__paymentForm p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+}

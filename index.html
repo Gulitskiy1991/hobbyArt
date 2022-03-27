@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__wayGetting">
+            <form class="wayGetting__inputAdress">
+                <div class="inputAdress__town">
+                    <p class="town__townTitle">Способ получения</p>
+                    <input type="text" placeholder="Город" class="town__townName">
+                    <select size="1" name="" class="town__townName">
+                        <option class="town__mailTown">Почта Росии</option>
+                    </select>
+                </div>
+                <div class="inputAdress__userAdress">
+                    <input type="text" placeholder="Улица" id="userAdress__userStreet">
+                    <input type="number" placeholder="Дом">
+                    <input type="number" placeholder="Квартира">
+                    <input type="number" placeholder="Индекс">
+                </div>
+                <input type="text" placeholder="Добавить комментарий" class="inputAdress__message">
+
+            </form>
+        </div>
+        <div class="wrapper__userData">
+            <form class="userData__fullName">
+                <div>
+                    <p class="town__townTitle">Данные Получателя</p>
+                    <input type="text" placeholder="Фамилия">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Отчество">
+                </div>
+                <input type="text" placeholder="Номер телефона">
+                <p class="fullName__numberTitle">По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</p>
+                <div class="fullName__checkboxBlock">
+                    <input type="checkbox" checked class="fullName__checkbox" >
+                    <p class="fullName__checkboxLabel">Подписаться на рассылку новинок и акций</p>
+                </div>
+            </form>
+        </div>
+        <div class="wrapper__paymentForm">
+            <p class="town__townTitle">Способ оплаты</p>
+            <p><input type="radio"> Оплата при получении наличными или картой</p>
+            <p><input type="radio"> Оплата банковской картой онлайн</p>
+        </div>
+    </div>
+</body>
+</html>
